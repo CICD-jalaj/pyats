@@ -1,0 +1,14 @@
+devices:
+  vimaster-node:
+    os: linux
+    type: ubuntu
+    credentials:
+      default:
+        username: hcl
+        password: Ubuntu@2021
+      sudo:
+        password: Ubuntu@2021
+    connections:
+      linux:
+        protocol: ssh
+        ip: 10.161.3.72
