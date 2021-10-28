@@ -15,7 +15,7 @@ class kubernet:
     '''
     def Pod(self):
         # load the testbed file
-        testbed = load('/home/gmcollection/pyats/testbed.yml')
+        testbed = load('/home/gmcollection/pyats/pyats/testbed.yml')
 
         # let's see our testbed devices
         testbed.devices
